@@ -1,0 +1,9 @@
+* {
+        transition: all 0.8s zoom-in 0s;
+        margin: 0;
+        padding: 0;
+        font-family:'cascadia code', Courier, monospace;
+        font-weight: 600;
+        font-style: normal;
+        box-sizing: border-box;
+}
