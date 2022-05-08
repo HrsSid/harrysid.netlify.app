@@ -1,0 +1,10 @@
+* {
+    transition: all 0.8s zoom-in 0s;
+}
+/*! Hide The ScrollBar */
+body {
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}

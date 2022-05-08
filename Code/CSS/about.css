@@ -1,0 +1,19 @@
+* {
+    transition: all 0.8s zoom-in 0s;
+}
+/*! Hide The ScrollBar */
+body {
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.text-box {
+    background: #1d2026;
+    width: 100%;
+    color: #c0c0c2;
+    position: absolute;
+    margin-top: 20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
