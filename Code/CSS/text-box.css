@@ -1,0 +1,171 @@
+* {
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
+.text-box {
+    background: #1d2026;
+    width: 100%;
+    color: #e9ecef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.ptitle {
+    color: #e9ecef;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.ptitle:hover {
+    color: #959595;
+    font-size: 65px;
+}
+.psubtitle{
+    color: #e9ecef;
+    margin: 2px 0 20px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.psubtitle:hover {
+    color: #959595;
+    margin: 2px 0 20px;
+    font-size: 45px;
+}
+.text-box h2{
+    color: #007bff;
+}
+.text-box .title {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text-box .body-text {
+    color: #e9ecef;
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 0.5;
+}
+.text-box .title-pi {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.text-box .body-text-pi {
+    color: #e9ecef;
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 0.5;
+    margin-bottom: 10%;
+}
+.harrysid__text {
+    float: center;
+    transform: translate(-50% , -50%);
+    margin-left: 0px;
+    color: #e9ecef;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.25s ease 0s;
+}
+.harrysid__text:hover {
+    font-size: 20px;
+    color: #a7a7a7;
+}
+.pUrl {
+    transition: all 0.25s ease 0s;
+}
+.harrysid__text:hover .pUrl {
+    color: #007bff;
+}
+.url {
+    color: #e9ecef;
+    text-decoration: none;
+    transition: all 0.25s ease 0s;
+    font-size: xx-large;
+}
+.url:hover {
+    color: #007bff;
+    font-size: xxx-large;
+    cursor: pointer;
+    animation: Vibrate 1s ease 0s infinite normal forwards;
+}
+.loading {
+    transition: all 0.4s zoom-in 0s;
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #c0c0c2;
+    position: relative;
+}
+.loading .error{
+    font-size: 60px;
+    color: rgb(255, 56, 42);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.loading .error-text {
+    font-size: xxx-large; 
+    color: rgb(255, 255, 255);
+}
+.easter-egg__title {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50% , -50%);
+    animation: Vibrate 1s ease 0s infinite normal forwards;
+    font-size: xxx-large;
+    color: greenyellow;
+}
+.easter-egg__subtitle {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: xx-large;
+    color: #fff;
+}
+
+
+
+
+
+.change-color__yellow{
+    color: #ff1;
+    font-weight: 600;
+}
+.change-color__blue {
+    color: #007bff;
+}
+
+
+
+
+
+@keyframes Vibrate {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
