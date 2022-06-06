@@ -1,0 +1,11 @@
+* {
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
+.header {
+    transition: all 0.4s zoom-in 0s;
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #c0c0c2;
+    position: relative;
+}
