@@ -1,0 +1,166 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        transition: all 0.4s ease 0s;
+        user-select: none;
+        font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+        font-weight: 300;
+}
+/* dark-light switch */
+.checkbox-div-dark-light {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 80%;
+        transform: translate(-50% , -180%);
+}
+#checkbox-dark-light {
+        accent-color: #ff2;
+}
+#checkbox-dark-light::after {
+        content: "dark mode";
+        position: absolute;
+        left: 20px;
+        transform: translate(0% , -20%);
+        color: #959595;
+        font-weight: bold;
+        font-size: larger;
+        margin-right: -200px;
+}
+
+.header {
+        background: #1d2026;
+}
+.text-box {
+        background: #1d2026;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+        /* Text, Titles, Urls */
+        .ptitle {
+                font-size: xx-large;
+        }
+        .ptitle:hover {
+                font-size: xxx-large;
+        }
+        .psubtitle {
+                font-size: x-large;
+        }
+        .psubtitle:hover {
+                font-size: xx-large;
+        }
+        .text-box .title {
+                font-size: larger;
+        }
+        .text-box .body-text {
+                font-size: medium;
+                letter-spacing: 1px;
+        }
+        .text-box .title-pi {
+                font-size: larger;
+        }
+        .text-box .body-text-pi {
+                font-size: medium;
+                letter-spacing: 1px;
+        }
+        .loading .error {
+                font-size: x-large;
+        }
+        .loading .error-text {
+                font-size: x-large;
+        }
+        .easter-egg__title {
+                font-size: large;
+        }
+        .easter-egg__subtitle {
+                top: 50%;
+                left: 45%;
+                font-size: medium;
+        }
+        .url {
+                font-size: large;
+        }
+        .url:hover {
+                font-size: x-large;
+        }
+        /* Buttons, Nav-bar */
+        .hero-btn__contact {
+                font-size: medium;
+                padding: 6px 17px;
+        }
+        .hero-btn-projects {
+                font-size: medium;
+                padding: 4px 14px;
+        }
+        .nav-links ul li a {
+                font-size: medium;
+        }
+}
+@media only screen and (max-width: 600px) {
+        /* Text, Titles, Urls */
+        .ptitle {
+                font-size: x-large;
+        }
+        .ptitle:hover {
+                font-size: xx-large;
+        }
+        .psubtitle {
+                font-size: larger;
+        }
+        .psubtitle:hover {
+                font-size: x-large;
+        }
+        .text-box .title {
+                font-size: large;
+        }
+        .text-box .body-text {
+                font-size: small;
+                letter-spacing: 0px;
+        }
+        .text-box .title-pi {
+                font-size: large;
+        }
+        .text-box .body-text-pi {
+                font-size: small;
+                letter-spacing: 0px;
+        }
+        .loading .error {
+                font-size: larger;
+        }
+        .loading .error-text {
+                font-size: larger;
+        }
+        .easter-egg__title {
+                font-size: medium;
+        }
+        .easter-egg__subtitle {
+                top: 50%;
+                left: 45%;
+                font-size: small;
+        }
+        .url {
+                font-size: medium;
+        }
+        .url:hover {
+                font-size: larger;
+        }
+        .text-box .body-text {
+                word-spacing: 0%;
+                letter-spacing: 0%;
+                text-align: center;
+        }
+        /* Buttons, Nav-bar */
+        .hero-btn__contact {
+                font-size: small;
+                padding: 6px 17px;
+        }
+        .hero-btn-projects {
+                font-size: small;
+                padding: 4px 14px;
+        }
+        .nav-links ul li a {
+                font-size: small;
+        }
+}
